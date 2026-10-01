@@ -38,3 +38,9 @@ noche 5:(no tiene tutorial)
 💠screamer ducky: mismo audio - imagen = "gorrita con d.png"
 💠screamer jackdog: mismo audio - imagen = "Estándar.png"
 💠screamer nervy: mismo audio - imagen = "Estándar.png"/"Estándar.pn" + "Ojitos.png"
+
+>arreglemos la noche 6:
+
+💠ducky: exposed brazo("Exposed_bracito.png") con el delantal superpuesto y que luego se le deba poner un guante nuevo, hacer que se deba quitar el delantal para poder ver el muslo averiado y al terminar con las otras reparaciones el usuario deberá volver a colocarlo y pasar al siguiente animatrónico.
+💠jackdog: superposición del chaleco("ropa_jackdog.png"), exposed del brazo("jxposed_noarm.png"), exposed de la pierna("jexposed_noleg.png"), cambiar la parte averiada del pecho("Grieta del pecho.png").
+💠nervy: exposed de mano("Nexposed_nohand.png") y muslo("Nexposed_nothigh.png").
