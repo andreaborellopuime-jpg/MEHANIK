@@ -1,5 +1,16 @@
 promps:
 
+>primer prompt:
+💠Para todas las partidas:
+Cambiar el fondo por la imagen fondo.jpg que te mande y poner cajon cerrado.png, perchero.png y silla.png por encima como capas.
+
+Luego de eso, vamos a hacer minijuegos por cada cuadrado de color y la interfaz de la barra.
+reemplazar los inconos con las imagenes que te mande y ponerlos en la cuadricula.
+El cuadrado verde (la llave inglesa) es un minijuego de quitar tuercas.
+El destornillador es para abrir una caja de fusibles.
+El voltimetro es un minijuego de unir los cables del lado izquierdo con el derecho, pero los cables deben tener el mismo valor de voltaje para poder unirlos, sino falla el minijuego, deberia aparecer un valor de voltaje a un lado de la pantalla, cada vez que se haga hover manteniendo el click y arrastrando el cable de la izquierda sobre el de la derecha, sin soltarlo. Si el valor es correcto y lo suelta se conecta.
+El soldador (mango amarillo) sirve para reparar servos, es un minijuego de seguir la linea sobre un metal.
+
 >acomoda todo en el fondo como en "completo.png" y la barra como en "así se estaría viendo.png"(le fata "Botón para la pestaña de los repuestos.png" y "Soldador de estaño.png"). agrega "inicio.jpg" a la pantalla de inicio
 >la primera foto que te estoy subiendo ahora es todo el fondo con la silla incluida. agrega el soldador de estaño a la cuarta casilla de la barra. el botón a la izquierda de la barra debería desplegarse para mostrar las piezas de repuesto para los animatrónicos (las tres carpetas que te pasé)
 >noche 4:(no tiene tutorial) 
@@ -8,9 +19,6 @@ promps:
 |=> usar el destornillador para retirar los ojos y asegurar los nuevos. reponer el muslo nuevo y asegurarlo con el destornillador. utilizar la llave inglesa para retirar los cuernos y asegurar los nuevos.
 💠intentos para nervy: 3 = 3 estrellas
 💠screamer ducky: mismo audio - ojos rotos = "Estándar.png"/ojos reparados (superpuesto) = "Ojitos.png"
-
-
-
 
 noche 5:(no tiene tutorial) 
 💠primer animatrónico: ducky = avería intermedia (sentado completo "Completo.png" - avería "Brazo roto.png" y "Delantal con ketchup.png" (la falta la gorra) - repuesto "Bracito.png", "Gorra.png" y "Delantal.png" - expuesto "exposed.png" (al retirar el muslo))
@@ -44,3 +52,23 @@ noche 5:(no tiene tutorial)
 💠ducky: exposed brazo("Exposed_bracito.png") con el delantal superpuesto y que luego se le deba poner un guante nuevo, hacer que se deba quitar el delantal para poder ver el muslo averiado y al terminar con las otras reparaciones el usuario deberá volver a colocarlo y pasar al siguiente animatrónico.
 💠jackdog: superposición del chaleco("ropa_jackdog.png"), exposed del brazo("jxposed_noarm.png"), exposed de la pierna("jexposed_noleg.png"), cambiar la parte averiada del pecho("Grieta del pecho.png").
 💠nervy: exposed de mano("Nexposed_nohand.png") y muslo("Nexposed_nothigh.png").
+
+>detalles generales:
+
+💠pequeños detalles:
+noche 2:
+los ojos de jackdog se están fijando con el soldador en lugar de destornillador. al quitarle el chaleco se ve extraño.
+noche 3:
+hace como si le quitara algo luego de usar el volt con su brazo. luego de arreglarlo está colocando su delantal y saltando directamente a jackdog.
+noche 4:
+a los ojos de nervy les falta un exposed.
+noche 5:
+se necesita reemplazar por un exposed de mano para nervy.
+quizá los screamers quedaron muy grandes y el texto debería ser más legible.
+💠deja lo intermedios entre animatrónicos y noches como estaban antes. haz que el texto indicativo sea más legible. en la noche 3 se está poniendo solo el guante que le falta luego de arreglarle el brazo a ducky.
+💠haz que los textos de indicación no aparezcan cuando se está haciendo un minijuego (y de preferencia que no tenga esa sombra y no tan grande, busca un punto medio).
+💠en la noche 5 se está agregando el guante automaticamente luego de reparar el brazo.
+
+>cinemática final:
+
+💠hacer la cinematica final del juego, al finalizar de reparar el ultimo animatronico de la noche final, que empiecen a sonar los audios del final luego de END2 que aparezca page 1.jpg de repente y suene el sonido stab.ogg al mismo tiempo, luego que page 1.jpg se desvanezca y sigan los audios END3 y 4 (esp o eng segun el idioma en el que este el juego), luego de finalizar los audios, que la pantalla se ponga en negro lentamente y luego aparezca page 2.jpg y 4 segundos despues, page 3.jpg, con un sonido de jumpscare ligero, y luego diga GAME OVER, para que luego te envie al menu principal.
